@@ -14,7 +14,9 @@ class _Second_ScreenState extends State<Second_Screen> {
       appBar: AppBar(title: Text("Second_screen")),
       body: Column(children: [
         Text("data"),
-        Container(),
+        Container(
+          child: Text("CONTAINER"),
+        ),
       ]),
     );
   }
