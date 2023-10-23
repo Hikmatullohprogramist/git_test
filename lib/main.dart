@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:git_test/second_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,9 +32,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Second_Screen(),
     );
   }
+
+}
+
 }
 
 class MyHomePage extends StatefulWidget {
@@ -123,3 +127,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
