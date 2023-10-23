@@ -13,7 +13,8 @@ class _Second_ScreenState extends State<Second_Screen> {
     return Scaffold(
       appBar: AppBar(title: Text("Second_screen")),
       body: Column(children: [
-        Text("data")
+        Text("data"),
+        Container(),
       ]),
     );
   }
