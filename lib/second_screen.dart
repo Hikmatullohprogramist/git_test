@@ -17,6 +17,9 @@ class _Second_ScreenState extends State<Second_Screen> {
         Container(
           child: Text("CONTAINER"),
         ),
+        Row(
+          children: [Text("it is true")],
+        )
       ]),
     );
   }
